@@ -1,0 +1,68 @@
+@import 'color.scss';
+
+.default{
+	position: relative !important;
+}
+
+.brand{
+	width: 265px;
+}
+
+#header{
+	padding-top: 32px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+
+    .info{
+    	display: inline-block;
+	    float: left;
+	    margin-top: 20px;
+    }
+
+    .title{
+    	color: $white;
+		font-size: 10px;
+	    letter-spacing: 1px;
+	    text-decoration: none;
+	    text-transform: uppercase;
+    }
+}
+
+#logo{
+	display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.name{
+    color: $white;
+	font-weight: 800;
+	font-size: 13px;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #969696;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    text-decoration: none;
+}
+
+#bg-cover{
+	position: fixed;
+	background-image: url('https://jonny.me/2.jpg');
+	background-size: cover;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -100;
+}
+
+.container{
+	width: 900px;
+	margin: auto;
+}
+
+.img-style{
+	width: 30px;
+}
